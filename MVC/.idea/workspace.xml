@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7943fa41-be54-4c8a-a52b-62fa73960c89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="808c7f55-8fe5-4126-b4f7-c45b4b1c513b" />
+    </checked>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ssm" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ssm" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="TodoTxt" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1kUyZiHqcgOGCdRdLnfxxE03Ml1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hive&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../day17_ajax_部署/zongjie/web21_17" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC\src\main\resources\templates\topic" />
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC\src\main\resources\static" />
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC\src\main\resources\kybmig\ssm\mapper" />
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC\src\main\resources\templates\user" />
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kybmig.ssm.service" />
+      <recent name="kybmig.ssm.mapper" />
+      <recent name="kybmig.ssm.controller" />
+      <recent name="kybmig.ssm" />
+      <recent name="kybmig.ssm.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\kuaibiancheng\day18\summary\springMVC" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/user" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/actuator/heapdump" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/octet-stream" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/actuator/info" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v2+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/demo" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SsmDevelopment">
+    <configuration name="JDBCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kybmig.ssm.JDBCDemo" />
+      <module name="ssm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kybmig.ssm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kybmig.ssm.JWTDemo" />
+      <module name="ssm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kybmig.ssm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicCommentModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kybmig.ssm.model.TopicCommentModel" />
+      <module name="ssm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kybmig.ssm.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kybmig.ssm.model.TopicModel" />
+      <module name="ssm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kybmig.ssm.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm [build]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SsmDevelopment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ssm.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kybmig.ssm.SsmApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="build" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/build/libs/ssm-0.0.1-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49994" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JDBCDemo" />
+      <item itemvalue="Application.JWTDemo" />
+      <item itemvalue="Application.TopicModel" />
+      <item itemvalue="Application.TopicCommentModel" />
+      <item itemvalue="Gradle.ssm [build]" />
+      <item itemvalue="Spring Boot.SsmDevelopment" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TopicModel" />
+        <item itemvalue="Application.TopicCommentModel" />
+        <item itemvalue="Application.JWTDemo" />
+        <item itemvalue="Application.JDBCDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7943fa41-be54-4c8a-a52b-62fa73960c89" name="Default Changelist" comment="" />
+      <created>1565860104706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565860104706</updated>
+      <workItem from="1565860108453" duration="12414000" />
+      <workItem from="1565872575440" duration="19813000" />
+      <workItem from="1572706682557" duration="174000" />
+      <workItem from="1572706901411" duration="21083000" />
+      <workItem from="1572828335613" duration="14370000" />
+      <workItem from="1572855464152" duration="1547000" />
+      <workItem from="1585838683091" duration="574000" />
+      <workItem from="1605769523176" duration="1036000" />
+      <workItem from="1606015350661" duration="13083000" />
+      <workItem from="1606053927023" duration="10018000" />
+      <workItem from="1606065802953" duration="150000" />
+      <workItem from="1606100160380" duration="5666000" />
+      <workItem from="1606147353787" duration="674000" />
+      <workItem from="1606186080180" duration="2713000" />
+      <workItem from="1606188944368" duration="1567000" />
+      <workItem from="1606190570623" duration="894000" />
+      <workItem from="1606191646497" duration="8223000" />
+      <workItem from="1606205788279" duration="2291000" />
+      <workItem from="1606208098165" duration="2505000" />
+      <workItem from="1606218370581" duration="3634000" />
+      <workItem from="1606315376225" duration="5244000" />
+      <workItem from="1606355249313" duration="5416000" />
+      <workItem from="1606361893005" duration="5162000" />
+      <workItem from="1606406642146" duration="605000" />
+      <workItem from="1606999606987" duration="8410000" />
+      <workItem from="1607046972295" duration="726000" />
+      <workItem from="1607092237343" duration="3519000" />
+      <workItem from="1607137016692" duration="4540000" />
+      <workItem from="1607146505664" duration="143000" />
+      <workItem from="1607146721309" duration="5112000" />
+      <workItem from="1607156371031" duration="7035000" />
+      <workItem from="1607171109707" duration="3020000" />
+      <workItem from="1607177614554" duration="230000" />
+      <workItem from="1607177915609" duration="3362000" />
+      <workItem from="1607185169915" duration="1736000" />
+      <workItem from="1607225655338" duration="14102000" />
+      <workItem from="1607265566312" duration="148000" />
+      <workItem from="1607307182152" duration="2676000" />
+      <workItem from="1607393315954" duration="1978000" />
+      <workItem from="1607395809518" duration="3186000" />
+      <workItem from="1607402296083" duration="2343000" />
+      <workItem from="1607490766907" duration="48000" />
+      <workItem from="1607592189429" duration="3988000" />
+      <workItem from="1607610830464" duration="3679000" />
+      <workItem from="1607614891452" duration="1420000" />
+      <workItem from="1607616335807" duration="696000" />
+      <workItem from="1607654683310" duration="8221000" />
+      <workItem from="1607776599503" duration="1812000" />
+      <workItem from="1607779633378" duration="902000" />
+      <workItem from="1607780586179" duration="6341000" />
+      <workItem from="1607827898582" duration="2568000" />
+      <workItem from="1607830517981" duration="1441000" />
+      <workItem from="1607831985317" duration="1216000" />
+      <workItem from="1607870983423" duration="2004000" />
+      <workItem from="1607874729022" duration="1036000" />
+      <workItem from="1607875791967" duration="571000" />
+      <workItem from="1607876382153" duration="2671000" />
+      <workItem from="1607914791731" duration="20093000" />
+      <workItem from="1607953085187" duration="1737000" />
+      <workItem from="1607954857451" duration="182000" />
+      <workItem from="1607955073786" duration="4852000" />
+      <workItem from="1607960210065" duration="3173000" />
+      <workItem from="1607998091521" duration="14595000" />
+      <workItem from="1608040032257" duration="3000" />
+      <workItem from="1608084690421" duration="7596000" />
+      <workItem from="1608092618278" duration="1396000" />
+      <workItem from="1608094048180" duration="8256000" />
+      <workItem from="1608121226656" duration="2016000" />
+      <workItem from="1608171445430" duration="22000" />
+      <workItem from="1608187231662" duration="641000" />
+    </task>
+    <task id="LOCAL-00001" summary="包的 ssm 项目初始化">
+      <created>1572706994979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572706994980</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修正 properties 的编码问题, 改成 utf-8">
+      <created>1572707239294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572707239294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改密码&#10;加入服务器端口设定">
+      <created>1572708889819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572708889819</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加 TodoService">
+      <created>1572709825526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572709825526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加 BlogController 的 增, 改, detail&#10;增加 BlogService 的增删改">
+      <created>1572769754686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572769754686</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成用户注册登录和用户首页">
+      <created>1572788760401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572788760401</updated>
+    </task>
+    <task id="LOCAL-00007" summary="txt 版本的 spring mvc 框架">
+      <created>1572793408011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572793408011</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sql 怎么增加删除">
+      <created>1572797579218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572797579218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="包的 ssm 项目初始化" />
+    <MESSAGE value="修正 properties 的编码问题, 改成 utf-8" />
+    <MESSAGE value="修改密码&#10;加入服务器端口设定" />
+    <MESSAGE value="增加 TodoService" />
+    <MESSAGE value="增加 BlogController 的 增, 改, detail&#10;增加 BlogService 的增删改" />
+    <MESSAGE value="完成用户注册登录和用户首页" />
+    <MESSAGE value="txt 版本的 spring mvc 框架" />
+    <MESSAGE value="sql 怎么增加删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql 怎么增加删除" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1327" y="383" key="#Notifications" timestamp="1606191654852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1327" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1606191654852" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1607490777580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1607490777580" />
+    <state x="1203" y="342" key="#TomEE_Server" timestamp="1607177655693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1203" y="342" key="#TomEE_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1607177655693" />
+    <state x="1202" y="343" key="#Tomcat_Server" timestamp="1607178147692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1202" y="343" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1607178147692" />
+    <state x="948" y="72" width="960" height="789" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607183787047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="948" y="72" width="960" height="789" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607183787047" />
+    <state x="1249" y="205" width="499" height="718" key="#com.intellij.ide.util.MemberChooser" timestamp="1608096623105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1249" y="205" width="499" height="718" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608096623105" />
+    <state x="456" y="215" width="760" height="742" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1607178020778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="456" y="215" width="760" height="742" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1607178020778" />
+    <state x="1181" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606032171485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1181" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606032171485" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607876171154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607876171154" />
+    <state x="116" y="136" key="CommitChangelistDialog2" timestamp="1605770866510">
+      <screen x="39" y="23" width="1881" height="1057" />
+    </state>
+    <state x="116" y="136" key="CommitChangelistDialog2/39.23.1881.1057@39.23.1881.1057" timestamp="1605770866510" />
+    <state x="1224" y="278" key="FileChooserDialogImpl" timestamp="1608171462906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1224" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608171462906" />
+    <state width="1877" height="334" key="GridCell.Tab.0.bottom" timestamp="1608187277549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608187277549" />
+    <state width="898" height="365" key="GridCell.Tab.0.bottom/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="1877" height="334" key="GridCell.Tab.0.center" timestamp="1608187277548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608187277548" />
+    <state width="898" height="365" key="GridCell.Tab.0.center/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891778" />
+    <state width="1877" height="334" key="GridCell.Tab.0.left" timestamp="1608187277548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608187277548" />
+    <state width="898" height="365" key="GridCell.Tab.0.left/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891778" />
+    <state width="1877" height="334" key="GridCell.Tab.0.right" timestamp="1608187277549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608187277549" />
+    <state width="898" height="365" key="GridCell.Tab.0.right/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="1877" height="334" key="GridCell.Tab.1.bottom" timestamp="1608123951194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608123951194" />
+    <state width="898" height="365" key="GridCell.Tab.1.bottom/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="1877" height="334" key="GridCell.Tab.1.center" timestamp="1608123951194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608123951194" />
+    <state width="898" height="365" key="GridCell.Tab.1.center/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="1877" height="334" key="GridCell.Tab.1.left" timestamp="1608123951193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608123951193" />
+    <state width="898" height="365" key="GridCell.Tab.1.left/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="1877" height="334" key="GridCell.Tab.1.right" timestamp="1608123951194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608123951194" />
+    <state width="898" height="365" key="GridCell.Tab.1.right/39.23.1881.1057@39.23.1881.1057" timestamp="1605770891779" />
+    <state width="603" height="279" key="GridCell.Tab.2.bottom" timestamp="1607184478149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="603" height="279" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607184478149" />
+    <state width="603" height="279" key="GridCell.Tab.2.center" timestamp="1607184478149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="603" height="279" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607184478149" />
+    <state width="603" height="279" key="GridCell.Tab.2.left" timestamp="1607184478149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="603" height="279" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607184478149" />
+    <state width="603" height="279" key="GridCell.Tab.2.right" timestamp="1607184478149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="603" height="279" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607184478149" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1606117089351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606117089351" />
+    <state x="980" y="88" width="936" height="712" key="SettingsEditor" timestamp="1606191126582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="980" y="88" width="936" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606191126582" />
+    <state x="1100" y="243" key="run.anything.popup" timestamp="1607187896366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1100" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607187896366" />
+    <state x="1107" y="230" width="672" height="160" key="search.everywhere.popup" timestamp="1608105961978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1107" y="230" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608105961978" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="build" />
+    <option value="compileJava" />
+    <option value="test" />
+  </component>
+</project>

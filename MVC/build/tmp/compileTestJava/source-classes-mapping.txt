@@ -1,0 +1,2 @@
+kybmig/ssm/SsmApplicationTests.java
+ kybmig.ssm.SsmApplicationTests

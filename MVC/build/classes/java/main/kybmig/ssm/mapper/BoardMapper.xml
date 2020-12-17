@@ -1,0 +1,78 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 和 java mapper 的类名一样，从包名开始打，有自动补全-->
+<mapper namespace="kybmig.ssm.mapper.BoardMapper">
+    <!-- resultType 和 mapper 中的方法返回值一样，不能省，从包名开始打，有自动补全-->
+    <!--  里面的 sql 语句，有自动补全,要配置 ide 的 datasource -->
+    <select id="selectAllBoard" resultType="kybmig.ssm.model.BoardModel">
+        SELECT * FROM ssm.board
+    </select>
+
+    <select id="selectBoardByName" resultType="kybmig.ssm.model.BoardModel">
+        select * from board where board.name = #{name};
+    </select>
+
+    <!-- 传参数方式1，直接传入一个基本类型 int，这个 int 会被绑定到 ${id} -->
+    <select id="selectTodo" resultType="kybmig.ssm.model.TodoModel">
+        SELECT * FROM ssm.todo WHERE id = ${id}
+    </select>
+
+    <!-- 传参方式2，传入一个对象。content 代表这个对象的 content 属性，注意这个对象要有 getter setter -->
+    <!-- useGeneratedKeys keyProperty 当我传入一个对象的时候，这两个属性可以把数据库创建的 id 赋值给这个对象 -->
+    <insert id="insertTodo" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO ssm.todo (content) VALUES (#{content})
+    </insert>
+    
+    <update id="updateTodo">
+        UPDATE ssm.todo SET content = #{content} WHERE id = #{id}
+    </update>
+
+    <delete id="deleteTodo">
+        DELETE FROM ssm.todo WHERE id = #{id}
+    </delete>
+
+    <resultMap id="selectOneWithCommentsAndUserMap" type="kybmig.ssm.model.TopicModel">
+        <!-- 通过resultMap内置标签将其与返回值的类的属性一一对应 -->
+        <id property="id" column="id" />
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <collection property="commentList" ofType="kybmig.ssm.model.TopicCommentModel">
+            <id property="id" column="c_id"/>
+            <result property="content" column="c_content"/>
+            <association property="user" javaType="kybmig.ssm.model.UserModel">
+                <result property="username" column="u_username"/>
+
+            </association>
+        </collection>
+
+    </resultMap>
+
+    <select id="selectOneWithCommentsAndUser" resultMap="selectOneWithCommentsAndUserMap">
+        select
+                topic.id,
+                topic.title,
+                topic.content,
+                topiccomment.id as c_id,
+                topiccomment.content as c_content,
+                user.username as u_username
+        From
+                ssm.topic left join (topiccomment join user)
+                        on topic.id = topiccomment.topicId and topiccomment.userId = user.id
+        where topic.id = #{id};
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>
